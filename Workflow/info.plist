@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.alfredapp.vitor.purgediskimages</string>
+	<key>connections</key>
+	<dict>
+		<key>03242D23-0C0F-4D8D-8BBF-9BB594CFBFDC</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A7E5B8A9-9DCE-4C26-B9CF-4E0CE2321E72</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>236BFA3F-8B3F-4D26-96E8-E05F51F851EB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>EB3BED26-6989-4DB5-824B-2DF413AEF4A0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+		</array>
+		<key>30F1394E-BBBA-401D-BD48-379FBE562703</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0184A4E9-F265-49EB-A0E5-044379A0B9FA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>7E6151E0-CE0A-43AA-9A94-3872EA15F4B2</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>63D3B242-96DC-4976-80A4-F367EF787F6F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>5E897385-04AD-46BC-86BA-4521A1C336C6</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>236BFA3F-8B3F-4D26-96E8-E05F51F851EB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>63D3B242-96DC-4976-80A4-F367EF787F6F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>65932C82-D985-4E3C-B2B8-223D13CBDE49</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>C888643B-78E8-4F1E-964E-ED63FE5B8FED</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>61702A24-A246-4002-B144-826A402B710F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>12C29713-0D64-4177-A1CD-B28E6ECDCB38</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>98123F4C-652D-4FD0-8B25-81A596FD154D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CC144DC6-08C4-4DD3-97BF-839B529E20BC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A7E5B8A9-9DCE-4C26-B9CF-4E0CE2321E72</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>30F1394E-BBBA-401D-BD48-379FBE562703</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C4E6FAEE-28A0-45E3-9D39-E1BE631449B9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A7E5B8A9-9DCE-4C26-B9CF-4E0CE2321E72</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CC144DC6-08C4-4DD3-97BF-839B529E20BC</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C4E6FAEE-28A0-45E3-9D39-E1BE631449B9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+		</array>
+		<key>EB3BED26-6989-4DB5-824B-2DF413AEF4A0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>03242D23-0C0F-4D8D-8BBF-9BB594CFBFDC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Vítor Galvão</string>
+	<key>description</key>
+	<string>Find, Unmount, and Trash DMGs</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Purge Disk Images</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>{var:mounted_keyword}</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>#!/usr/bin/osascript -l JavaScript
+
+function envVar(varName) {
+  return $.NSProcessInfo
+    .processInfo
+    .environment
+    .objectForKey(varName).js
+}
+
+function run() {
+  // Get mounted Disk Images
+  const task = $.NSTask.alloc.init
+  const stdout = $.NSPipe.pipe
+
+  task.executableURL = $.NSURL.fileURLWithPath("/usr/bin/hdiutil")
+  task.arguments = ["info", "-plist"]
+  task.standardOutput = stdout
+  task.launchAndReturnError(false)
+
+  const dataOut = stdout.fileHandleForReading.readDataToEndOfFileAndReturnError(false)
+  const stringOut = $.NSString.alloc.initWithDataEncoding(dataOut, $.NSUTF8StringEncoding).js
+
+  // Use temporary plist to parse info as JSON
+  const tmpPlist = `/tmp/${envVar("alfred_workflow_bundleid")}.plist`
+  $(stringOut).writeToFileAtomicallyEncodingError(tmpPlist, true, $.NSUTF8StringEncoding, undefined)
+  const diskImages = Application("System Events").propertyListFiles.byName(tmpPlist).contents.value().images
+
+  // When no disk images found
+  if (diskImages.length === 0) return JSON.stringify({ items: [{
+    title: "No Disk Images Mounted",
+    valid: false
+  }]})
+
+  // Show disk images
+  const sfItems = diskImages.flatMap(diskImage =&gt; {
+    const lastItem = diskImages.length === 1 // When trashing last item, hide Alfred
+    const originPath = diskImage["image-path"]
+    const mountPoint = diskImage["system-entities"]
+      .find(entity =&gt; entity["mount-point"])["mount-point"]
+
+    return {
+      variables: {
+        last_item: lastItem,
+        mount_point: mountPoint,
+        origin_path: originPath
+      },
+      title: $(mountPoint).lastPathComponent.js,
+      subtitle: `Eject ${mountPoint} and trash ${$(originPath).stringByAbbreviatingWithTildeInPath.js}`,
+      arg: "See variables",
+      icon: { path: mountPoint, type: "fileicon" }
+    }
+  })
+
+  return JSON.stringify({ items: sfItems })
+}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>skipuniversalaction</key>
+				<true/>
+				<key>subtext</key>
+				<string>Unmount disk image volumes and trash DMGs</string>
+				<key>title</key>
+				<string>Trash Mounted Disk Images</string>
+				<key>type</key>
+				<integer>7</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>236BFA3F-8B3F-4D26-96E8-E05F51F851EB</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
+				<key>triggerid</key>
+				<string>mounted_list</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>5E897385-04AD-46BC-86BA-4521A1C336C6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>/usr/bin/hdiutil detach "${mount_point}"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>EB3BED26-6989-4DB5-824B-2DF413AEF4A0</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict>
+					<key>target_path</key>
+					<string>{var:origin_path}</string>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/files-and-folders/path.trash</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>A7E5B8A9-9DCE-4C26-B9CF-4E0CE2321E72</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>unstackview</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.hidealfred</string>
+			<key>uid</key>
+			<string>0184A4E9-F265-49EB-A0E5-044379A0B9FA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:last_item}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>5</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Hide</string>
+						<key>uid</key>
+						<string>7E6151E0-CE0A-43AA-9A94-3872EA15F4B2</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Refresh</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>30F1394E-BBBA-401D-BD48-379FBE562703</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>trash_type</key>
+					<string>mounted</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>03242D23-0C0F-4D8D-8BBF-9BB594CFBFDC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:trash_type}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>mounted</string>
+						<key>outputlabel</key>
+						<string>Mounted</string>
+						<key>uid</key>
+						<string>C888643B-78E8-4F1E-964E-ED63FE5B8FED</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:trash_type}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>file</string>
+						<key>outputlabel</key>
+						<string>DMG File</string>
+						<key>uid</key>
+						<string>12C29713-0D64-4177-A1CD-B28E6ECDCB38</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>63D3B242-96DC-4976-80A4-F367EF787F6F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>{var:file_keyword}</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Searching for DMGs…</string>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>mddmg</string>
+				<key>skipuniversalaction</key>
+				<true/>
+				<key>subtext</key>
+				<string>Trash DMGs</string>
+				<key>title</key>
+				<string>Trash Disk Image Files</string>
+				<key>type</key>
+				<integer>8</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>CC144DC6-08C4-4DD3-97BF-839B529E20BC</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>mounted_list</string>
+				<key>passinputasargument</key>
+				<false/>
+				<key>passvariables</key>
+				<false/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>65932C82-D985-4E3C-B2B8-223D13CBDE49</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
+				<key>triggerid</key>
+				<string>file_list</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>98123F4C-652D-4FD0-8B25-81A596FD154D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>origin_path</key>
+					<string>{query}</string>
+					<key>trash_type</key>
+					<string>file</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>C4E6FAEE-28A0-45E3-9D39-E1BE631449B9</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>file_list</string>
+				<key>passinputasargument</key>
+				<false/>
+				<key>passvariables</key>
+				<false/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>61702A24-A246-4002-B144-826A402B710F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>## Usage
+
+See mounted disk images via the `dmgeject` keyword. &lt;kbd&gt;↩&lt;/kbd&gt; to eject it and trash the DMG.
+
+![Showing mounted images](images/about/dmgeject.png)
+
+Find DMG files via the `dmgtrash` keyword. &lt;kbd&gt;↩&lt;/kbd&gt; to trash the DMG.
+
+![Showing DMGs](images/about/dmgtrash.png)
+
+In both cases, Alfred’s list refreshes if more results remain after trashing one or hides when trashing the last one.</string>
+	<key>uidata</key>
+	<dict>
+		<key>0184A4E9-F265-49EB-A0E5-044379A0B9FA</key>
+		<dict>
+			<key>xpos</key>
+			<real>990</real>
+			<key>ypos</key>
+			<real>60</real>
+		</dict>
+		<key>03242D23-0C0F-4D8D-8BBF-9BB594CFBFDC</key>
+		<dict>
+			<key>xpos</key>
+			<real>575</real>
+			<key>ypos</key>
+			<real>75</real>
+		</dict>
+		<key>236BFA3F-8B3F-4D26-96E8-E05F51F851EB</key>
+		<dict>
+			<key>xpos</key>
+			<real>225</real>
+			<key>ypos</key>
+			<real>45</real>
+		</dict>
+		<key>30F1394E-BBBA-401D-BD48-379FBE562703</key>
+		<dict>
+			<key>xpos</key>
+			<real>840</real>
+			<key>ypos</key>
+			<real>65</real>
+		</dict>
+		<key>5E897385-04AD-46BC-86BA-4521A1C336C6</key>
+		<dict>
+			<key>xpos</key>
+			<real>55</real>
+			<key>ypos</key>
+			<real>45</real>
+		</dict>
+		<key>61702A24-A246-4002-B144-826A402B710F</key>
+		<dict>
+			<key>xpos</key>
+			<real>1115</real>
+			<key>ypos</key>
+			<real>340</real>
+		</dict>
+		<key>63D3B242-96DC-4976-80A4-F367EF787F6F</key>
+		<dict>
+			<key>xpos</key>
+			<real>960</real>
+			<key>ypos</key>
+			<real>200</real>
+		</dict>
+		<key>65932C82-D985-4E3C-B2B8-223D13CBDE49</key>
+		<dict>
+			<key>xpos</key>
+			<real>1115</real>
+			<key>ypos</key>
+			<real>205</real>
+		</dict>
+		<key>98123F4C-652D-4FD0-8B25-81A596FD154D</key>
+		<dict>
+			<key>xpos</key>
+			<real>55</real>
+			<key>ypos</key>
+			<real>205</real>
+		</dict>
+		<key>A7E5B8A9-9DCE-4C26-B9CF-4E0CE2321E72</key>
+		<dict>
+			<key>xpos</key>
+			<real>665</real>
+			<key>ypos</key>
+			<real>45</real>
+		</dict>
+		<key>C4E6FAEE-28A0-45E3-9D39-E1BE631449B9</key>
+		<dict>
+			<key>xpos</key>
+			<real>575</real>
+			<key>ypos</key>
+			<real>235</real>
+		</dict>
+		<key>CC144DC6-08C4-4DD3-97BF-839B529E20BC</key>
+		<dict>
+			<key>xpos</key>
+			<real>225</real>
+			<key>ypos</key>
+			<real>205</real>
+		</dict>
+		<key>EB3BED26-6989-4DB5-824B-2DF413AEF4A0</key>
+		<dict>
+			<key>note</key>
+			<string>Detach image</string>
+			<key>xpos</key>
+			<real>410</real>
+			<key>ypos</key>
+			<real>45</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>dmgeject</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Keyword to search for mounted disk images.</string>
+			<key>label</key>
+			<string>Mounted Keyword</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>mounted_keyword</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>dmgtrash</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Keyword to search for disk image files.</string>
+			<key>label</key>
+			<string>Files Keyword</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>file_keyword</string>
+		</dict>
+	</array>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>2024.0</string>
+	<key>webaddress</key>
+	<string>https://github.com/alfredapp/purge-disk-images-workflow/</string>
+</dict>
+</plist>
