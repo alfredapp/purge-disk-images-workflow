@@ -30,8 +30,8 @@ let filteredMatches: [String] = (0..<resultCount).compactMap { resultIndex in
 
   guard let resultPath = MDItemCopyAttribute(resultItem, kMDItemPath) as? String else { return nil }
 
-  // Exclude results in ~/Library
-  for libraryURL in FileManager.default.urls(for: .libraryDirectory, in: .userDomainMask) {
+  // Exclude results in Library directories
+  for libraryURL in FileManager.default.urls(for: .libraryDirectory, in: .allDomainsMask) {
     guard !resultPath.hasPrefix(libraryURL.path) else { return nil } }
 
   return resultPath
