@@ -31,21 +31,19 @@
 				<key>vitoclose</key>
 				<true/>
 			</dict>
-		</array>
-		<key>30F1394E-BBBA-401D-BD48-379FBE562703</key>
-		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>0184A4E9-F265-49EB-A0E5-044379A0B9FA</string>
+				<string>8449D257-067F-4655-BDBB-631D01829AEA</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
-				<key>sourceoutputuid</key>
-				<string>7E6151E0-CE0A-43AA-9A94-3872EA15F4B2</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+		</array>
+		<key>30F1394E-BBBA-401D-BD48-379FBE562703</key>
+		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>63D3B242-96DC-4976-80A4-F367EF787F6F</string>
@@ -53,6 +51,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>sourceoutputuid</key>
+				<string>7E6151E0-CE0A-43AA-9A94-3872EA15F4B2</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -93,6 +93,21 @@
 				<string></string>
 				<key>sourceoutputuid</key>
 				<string>12C29713-0D64-4177-A1CD-B28E6ECDCB38</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8449D257-067F-4655-BDBB-631D01829AEA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>66CFD216-7A67-43F0-830B-0F68C938D16D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>7E6151E0-CE0A-43AA-9A94-3872EA15F4B2</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -138,6 +153,16 @@
 		</array>
 		<key>CC144DC6-08C4-4DD3-97BF-839B529E20BC</key>
 		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8449D257-067F-4655-BDBB-631D01829AEA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 			<dict>
 				<key>destinationuid</key>
 				<string>C4E6FAEE-28A0-45E3-9D39-E1BE631449B9</string>
@@ -337,65 +362,19 @@ function run() {
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>unstackview</key>
+				<key>externaltriggerid</key>
+				<string>mounted_list</string>
+				<key>passinputasargument</key>
 				<false/>
+				<key>passvariables</key>
+				<false/>
+				<key>workflowbundleid</key>
+				<string>self</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.hidealfred</string>
+			<string>alfred.workflow.output.callexternaltrigger</string>
 			<key>uid</key>
-			<string>0184A4E9-F265-49EB-A0E5-044379A0B9FA</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string>{var:last_item}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>5</integer>
-						<key>matchstring</key>
-						<string></string>
-						<key>outputlabel</key>
-						<string>Hide</string>
-						<key>uid</key>
-						<string>7E6151E0-CE0A-43AA-9A94-3872EA15F4B2</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>Refresh</string>
-				<key>hideelse</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
-			<key>uid</key>
-			<string>30F1394E-BBBA-401D-BD48-379FBE562703</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>trash_type</key>
-					<string>mounted</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>03242D23-0C0F-4D8D-8BBF-9BB594CFBFDC</string>
+			<string>65932C82-D985-4E3C-B2B8-223D13CBDE49</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -442,6 +421,103 @@ function run() {
 			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
 			<string>63D3B242-96DC-4976-80A4-F367EF787F6F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:last_item}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>6</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Refresh</string>
+						<key>uid</key>
+						<string>7E6151E0-CE0A-43AA-9A94-3872EA15F4B2</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string></string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>30F1394E-BBBA-401D-BD48-379FBE562703</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>trash_type</key>
+					<string>mounted</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>03242D23-0C0F-4D8D-8BBF-9BB594CFBFDC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:last_item}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>5</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Hide</string>
+						<key>uid</key>
+						<string>7E6151E0-CE0A-43AA-9A94-3872EA15F4B2</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string></string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>8449D257-067F-4655-BDBB-631D01829AEA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>unstackview</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.hidealfred</string>
+			<key>uid</key>
+			<string>66CFD216-7A67-43F0-830B-0F68C938D16D</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -500,7 +576,7 @@ function run() {
 			<key>config</key>
 			<dict>
 				<key>externaltriggerid</key>
-				<string>mounted_list</string>
+				<string>file_list</string>
 				<key>passinputasargument</key>
 				<false/>
 				<key>passvariables</key>
@@ -511,7 +587,7 @@ function run() {
 			<key>type</key>
 			<string>alfred.workflow.output.callexternaltrigger</string>
 			<key>uid</key>
-			<string>65932C82-D985-4E3C-B2B8-223D13CBDE49</string>
+			<string>61702A24-A246-4002-B144-826A402B710F</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -552,25 +628,6 @@ function run() {
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>externaltriggerid</key>
-				<string>file_list</string>
-				<key>passinputasargument</key>
-				<false/>
-				<key>passvariables</key>
-				<false/>
-				<key>workflowbundleid</key>
-				<string>self</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.callexternaltrigger</string>
-			<key>uid</key>
-			<string>61702A24-A246-4002-B144-826A402B710F</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 	</array>
 	<key>readme</key>
 	<string>## Usage
@@ -586,17 +643,10 @@ Find DMG files via the `dmgtrash` keyword. &lt;kbd&gt;↩&lt;/kbd&gt; to trash t
 In both cases, Alfred’s list refreshes if more results remain after trashing one or hides when trashing the last one.</string>
 	<key>uidata</key>
 	<dict>
-		<key>0184A4E9-F265-49EB-A0E5-044379A0B9FA</key>
-		<dict>
-			<key>xpos</key>
-			<real>990</real>
-			<key>ypos</key>
-			<real>60</real>
-		</dict>
 		<key>03242D23-0C0F-4D8D-8BBF-9BB594CFBFDC</key>
 		<dict>
 			<key>xpos</key>
-			<real>575</real>
+			<real>585</real>
 			<key>ypos</key>
 			<real>75</real>
 		</dict>
@@ -610,9 +660,9 @@ In both cases, Alfred’s list refreshes if more results remain after trashing o
 		<key>30F1394E-BBBA-401D-BD48-379FBE562703</key>
 		<dict>
 			<key>xpos</key>
-			<real>840</real>
+			<real>850</real>
 			<key>ypos</key>
-			<real>65</real>
+			<real>75</real>
 		</dict>
 		<key>5E897385-04AD-46BC-86BA-4521A1C336C6</key>
 		<dict>
@@ -624,58 +674,72 @@ In both cases, Alfred’s list refreshes if more results remain after trashing o
 		<key>61702A24-A246-4002-B144-826A402B710F</key>
 		<dict>
 			<key>xpos</key>
-			<real>1115</real>
+			<real>1090</real>
 			<key>ypos</key>
-			<real>340</real>
+			<real>250</real>
 		</dict>
 		<key>63D3B242-96DC-4976-80A4-F367EF787F6F</key>
 		<dict>
 			<key>xpos</key>
-			<real>960</real>
+			<real>935</real>
 			<key>ypos</key>
-			<real>200</real>
+			<real>65</real>
 		</dict>
 		<key>65932C82-D985-4E3C-B2B8-223D13CBDE49</key>
 		<dict>
 			<key>xpos</key>
-			<real>1115</real>
+			<real>1090</real>
 			<key>ypos</key>
-			<real>205</real>
+			<real>45</real>
+		</dict>
+		<key>66CFD216-7A67-43F0-830B-0F68C938D16D</key>
+		<dict>
+			<key>xpos</key>
+			<real>500</real>
+			<key>ypos</key>
+			<real>190</real>
+		</dict>
+		<key>8449D257-067F-4655-BDBB-631D01829AEA</key>
+		<dict>
+			<key>xpos</key>
+			<real>420</real>
+			<key>ypos</key>
+			<real>190</real>
 		</dict>
 		<key>98123F4C-652D-4FD0-8B25-81A596FD154D</key>
 		<dict>
 			<key>xpos</key>
 			<real>55</real>
 			<key>ypos</key>
-			<real>205</real>
+			<real>250</real>
 		</dict>
 		<key>A7E5B8A9-9DCE-4C26-B9CF-4E0CE2321E72</key>
 		<dict>
 			<key>xpos</key>
-			<real>665</real>
+			<real>675</real>
 			<key>ypos</key>
 			<real>45</real>
 		</dict>
 		<key>C4E6FAEE-28A0-45E3-9D39-E1BE631449B9</key>
 		<dict>
 			<key>xpos</key>
-			<real>575</real>
+			<real>585</real>
 			<key>ypos</key>
-			<real>235</real>
+			<real>280</real>
 		</dict>
 		<key>CC144DC6-08C4-4DD3-97BF-839B529E20BC</key>
 		<dict>
 			<key>xpos</key>
 			<real>225</real>
 			<key>ypos</key>
-			<real>205</real>
+			<real>250</real>
 		</dict>
 		<key>EB3BED26-6989-4DB5-824B-2DF413AEF4A0</key>
 		<dict>
 			<key>note</key>
 			<string>Detach image</string>
 			<key>xpos</key>
-			<real>410</real>
+			<real>420</real>
 			<key>ypos</key>
 			<real>45</real>
 		</dict>
