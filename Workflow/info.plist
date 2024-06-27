@@ -251,7 +251,10 @@ function run() {
   // Use temporary plist to parse info as JSON
   const tmpPlist = `/tmp/${envVar("alfred_workflow_bundleid")}.plist`
   $(stringOut).writeToFileAtomicallyEncodingError(tmpPlist, true, $.NSUTF8StringEncoding, undefined)
-  const diskImages = Application("System Events").propertyListFiles.byName(tmpPlist).contents.value().images
+  const diskImages = Application("System Events")
+    .propertyListFiles.byName(tmpPlist).contents.value().images
+    .filter(image =&gt; !image["image-path"].startsWith("/Library"))
+    .filter(image =&gt; !image["image-path"].startsWith("/System"))
 
   // When no disk images found
   if (diskImages.length === 0) return JSON.stringify({ items: [{
