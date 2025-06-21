@@ -552,11 +552,11 @@ function run() {
 				<key>runningsubtext</key>
 				<string>Searching for DMGs…</string>
 				<key>script</key>
-				<string></string>
+				<string>./mdscriptfilter 'kMDItemContentType === com.apple.disk-image-udif'</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string>mddmg</string>
+				<string></string>
 				<key>skipuniversalaction</key>
 				<true/>
 				<key>subtext</key>
@@ -564,7 +564,7 @@ function run() {
 				<key>title</key>
 				<string>Trash Disk Image Files</string>
 				<key>type</key>
-				<integer>8</integer>
+				<integer>11</integer>
 				<key>withspace</key>
 				<true/>
 			</dict>
