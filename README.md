@@ -6,11 +6,11 @@ Find, Unmount, and Trash DMGs
 
 ## Usage
 
-See mounted disk images via the `dmgeject` keyword. <kbd>↩&#xFE0E;</kbd> to eject it and trash the DMG.
+See mounted disk images via the `dmgeject` keyword. <kbd>↩</kbd> to eject it and trash the DMG.
 
 ![Showing mounted images](Workflow/images/about/dmgeject.png)
 
-Find DMG files via the `dmgtrash` keyword. <kbd>↩&#xFE0E;</kbd> to trash the DMG.
+Find DMG files via the `dmgtrash` keyword. <kbd>↩</kbd> to trash the DMG.
 
 ![Showing DMGs](Workflow/images/about/dmgtrash.png)
 

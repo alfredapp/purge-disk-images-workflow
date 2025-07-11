@@ -795,7 +795,7 @@ In both cases, Alfred’s list refreshes if more results remain after trashing o
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>2024.4</string>
+	<string>25.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/alfredapp/purge-disk-images-workflow/</string>
 </dict>
